@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.commentInput {
+  display: inline-block;
+  height: 26px;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.commentButton {
+  display: inline-block;
+  background-color: #28a745;
+  color: #fff;
+  border: 1px solid #28a745;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 4px 8px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.action {
+  font-size: 12px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 2px;
+  margin-right: 8px;
+  font-weight: bold;
+}
